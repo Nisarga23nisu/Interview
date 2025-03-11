@@ -2977,7 +2977,8 @@
 
 ### 308.  What is the different between ingress and Network Policy?  
 
-    Answer: Ingress = Like API Gateway in AWS (drive traffic to different services based on path) ; Network Policy: Firewall Rules, basically
+    Answer: Ingress = Like API Gateway in AWS (drive traffic to different services based on path) ; 
+    Network Policy: Firewall Rules, basically
 
 
 More Unformatted questions:
