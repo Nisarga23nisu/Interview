@@ -1,21 +1,10 @@
 
 # ................... 288 Kubernetes Interview Questions  ....................
 
-## By  Mamun Rashid :: https://www.linkedin.com/in/mamunrashid/ 
-
-### Last Updated: 2023.02.05
-
-##
 
 #### 1. So, what have you done with Kubernetes? This question comes up all the time!
 
 #####   Answer: 
-
-#####     While this seems easy, a prepared and practiced answer is significantly better than an impromptu one.
-
-#####     You answer would be uniqe to your experience, but, here are some possibilities.
-
-
 ######     a. created clusters
 ######     b. upgarde master and nodepool versions
 ######     c. upgraded legacy monitoring 
@@ -30,9 +19,6 @@
 ######     k. stateful sets 
 ######     l. created CSRs and signed certificates
 
-
-## ........
-
 #### 2. You have 2 different contexts (A and B). Context A has a secret named foo. Context B does not. What would be a quick way to create the same exact secret in Context B?
 
      Answer: 
@@ -41,24 +27,12 @@
        3. Switch to Context B
        4. kubectl apply -f foo.yaml
 
-## .
-
-
-
-## ......
-
 #### 3.  There are more than one way to implement Ingress? What did you use to implement Ingress?
 
     Answer:  So, ingress is IMPLEMENTED by Ingress Controllers. There are at least 12.
              Most common is a Load Balancer (GCP/AWS). 
              Another popular one is Nginx Ingress Controller.
              See below for a longer list. (Question #8)
-
-## .
-
-
-
-## ......
 
 #### 4. Why do we need Kubernetes? What problems does it solve?
 
@@ -71,24 +45,11 @@
               f. persistent and/or shared volumes
               and more
 
-              Kubernetes solves these problems.
-
-
-## .
-
-
-## .....
-
 #### 5. What is the difference between Ingress and Ingress Controller:
 
     Answer: Ingress Controller FULFILLS ingress requirements
             Defining and ingress has no actual impact on traffic.
             Traffic is only acted upon once you have created an Ingress Controller (e.g. Load Balancer or Nginx Ingress Controller)
-
-## .
-
-
-## .....
 
 #### 6. Most common type of Ingress Controller?
 
